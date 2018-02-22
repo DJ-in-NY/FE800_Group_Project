@@ -6,6 +6,7 @@ library(plotly)
 library(dplyr)
 library(dygraphs)
 
+
 getSymbols('AAPL', from = '2017-01-01')
 data1 = data.frame(AAPL)    
 
